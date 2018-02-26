@@ -1,0 +1,14 @@
+{
+    "name": "ko3/arr",
+    "description": "Kohana Array Helper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kohana Team",
+            "email": "ilyaskazi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
