@@ -21,9 +21,14 @@
         "laravel": {
             "providers": [
                 "Ko3\\Arr\\ArrServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Ko3": "Ko3\\Arr\\ArrFacade"
+            }
         }
     },
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "illuminate/support": "~5"
+    }
 }

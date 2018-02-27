@@ -1,4 +1,4 @@
-<?php namespace Ko3\Classes\Arr;
+<?php namespace Ko3\Arr\Classes;
 
 /**
  * Laravel wrapper for Kohana Array helper.

@@ -1,17 +1,7 @@
 <?php namespace Ko3\Arr;
 
-//use Ko3\Classes\Arr;
-
 class ArrServiceProvider extends \Illuminate\Support\ServiceProvider
 {
-    /**
-    * Indicates if loading of the provider is deferred.
-    *
-    * @var bool
-    */
-    protected $defer = false;
-
-
     /**
     * Bootstrap services.
     *
@@ -20,7 +10,6 @@ class ArrServiceProvider extends \Illuminate\Support\ServiceProvider
     public function boot()
     {
         //
-        include __DIR__.'/routes.php';
     }
 
     /**
