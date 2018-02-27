@@ -1,11 +1,11 @@
 {
-    "name": "ko3/arr",
-    "description": "Kohana Array Helper for Laravel",
+    "name": "kohana/arr",
+    "description": "Kohana Array Helper",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Ilyas Kazi",
+            "name": "Kohana Team",
             "email": "ilyaskazi@gmail.com"
         }
     ],

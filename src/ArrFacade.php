@@ -1,13 +1,9 @@
-<?php
-
-namespace Ko3\Arr;
-
-use Illuminate\Support\Facades\Facade;
+<?php namespace Kohana\Arr;
 
 /**
- * @see \Ko3\Arr\
+ * @see \Kohana\Arr\
  */
-class ArrFacade extends Facade
+class ArrFacade extends \Illuminate\Support\Facades\Facade
 {
 
     /**

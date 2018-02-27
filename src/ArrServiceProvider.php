@@ -1,16 +1,22 @@
-<?php
+<?php namespace Kohana\Arr;
 
-namespace Ko3\Arr;
+use Kohana\Classes\Arr;
 
-use Illuminate\Support\ServiceProvider;
-
-class ArrServiceProvider extends ServiceProvider
+class ArrServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     /**
-     * Bootstrap services.
-     *
-     * @return void
-     */
+    * Indicates if loading of the provider is deferred.
+    *
+    * @var bool
+    */
+    protected $defer = false;
+
+
+    /**
+    * Bootstrap services.
+    *
+    * @return void
+    */
     public function boot()
     {
         //
@@ -18,10 +24,10 @@ class ArrServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register services.
-     *
-     * @return void
-     */
+    * Register services.
+    *
+    * @return void
+    */
     public function register()
     {
         //
