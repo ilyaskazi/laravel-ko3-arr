@@ -1,14 +1,32 @@
 {
-    "name": "kohana/arr",
-    "description": "Kohana Array Helper",
+    "name": "ko3/arr",
+    "description": "Kohana Array Helper for Laravel",
     "type": "library",
+    "keywords": [
+        "Laravel", "Kohana Array", "Open Source", "Helper"
+    ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Kohana Team",
+            "name": "Ilyas Kazi",
             "email": "ilyaskazi@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "ko3\\Arr\\": "."
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ko3\\Arr\\ArrServiceProvider"
+            ],
+            "aliases": {
+                "ko3": "ko3\\Arr\\ArrFacade"
+            }
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
