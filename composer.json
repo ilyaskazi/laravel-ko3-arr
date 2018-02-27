@@ -23,7 +23,7 @@
                 "Ko3\\Arr\\ArrServiceProvider"
             ],
             "aliases": {
-                "Ko3": "Ko3\\Arr\\ArrFacade"
+                "Arr": "Ko3\\Arr\\ArrFacade"
             }
         }
     },
