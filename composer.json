@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ko3\\Arr\\": "."
+            "ko3\\Arr\\": "vendor/ko3/arr/src/"
         }
     },
     "extra": {
