@@ -1,6 +1,6 @@
 <?php namespace Ko3\Arr;
 
-use Ko3\Classes\Arr;
+//use Ko3\Classes\Arr;
 
 class ArrServiceProvider extends \Illuminate\Support\ServiceProvider
 {

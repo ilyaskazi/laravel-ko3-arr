@@ -14,17 +14,14 @@
     ],
     "autoload": {
         "psr-4": {
-            "ko3\\Arr\\": "vendor/ko3/arr/src/"
+            "Ko3\\Arr\\": "vendor/ko3/arr/src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ko3\\Arr\\ArrServiceProvider"
-            ],
-            "aliases": {
-                "ko3": "ko3\\Arr\\ArrFacade"
-            }
+                "Ko3\\Arr\\ArrServiceProvider"
+            ]
         }
     },
     "minimum-stability": "dev",
